@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header_logo{
+    display: inline-block;
+}
+.menu {
+    display: block;
+    width:100%;
+    /*height: 50px;*/
+    /*background: rebeccapurple;*/
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 37px;
+}
+div.sign {
+    margin-left: auto;
+}
+ul > li {
+    display: inline;
+    padding: 5px 40px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto',sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #1B0A42;
+}
+ul {
+    display: inline-block;
+    margin: 0;
+}
+.content {
+    margin-top: 30px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
+.context {
+}
+.button {
+    background-color: #A3DC00; /* Green */
+    border-radius:6px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 120px;
+    height: 60px;
+}
+.text {
+    font-size: 60px;
+    color: #1B0A42;
+    font-family: 'Ramaraja', sans-serif;
+    line-height: 60px;
+    margin: 0;
+}
+.con-text {
+    color: #9A9A9A;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.button_content {
+    background-color: #A3DC00; /* Green */
+    border-radius:6px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 120px;
+    height: 60px;
+
+}
+.image {
+}
