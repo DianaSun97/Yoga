@@ -47,12 +47,6 @@ ul {
     display: inline-block;
     margin: 0;
 }
-.content {
-    margin-top: 30px;
-    margin-left: 200px;
-    display: flex;
-    align-items: center;
-}
 .context {
 }
 .button {
@@ -93,3 +87,47 @@ ul {
 }
 .image {
 }
+.menu1 {
+    filter: invert();
+
+}
+
+
+.content {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 1400px) {
+    .content {
+        width: 1400px;
+        margin-left: 200px;
+
+    }
+    .menu1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 1399px) {
+    .content {
+        margin-left: 100px;
+        flex-wrap: wrap-reverse;
+    }
+    .context {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+    }
+    .menu_items, div.sign {
+display: none;
+
+     }
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
