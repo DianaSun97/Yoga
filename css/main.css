@@ -3,6 +3,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.wrapper {
+    margin: 0 auto;
+}
 .header_logo{
     display: inline-block;
 }
@@ -22,7 +25,12 @@ nav {
 }
 div.sign {
     margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 280px;
 }
+
 ul > li {
     display: inline;
     padding: 5px 40px;
